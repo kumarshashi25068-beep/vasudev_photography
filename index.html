@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vasudev Photography | Capturing Moments, Creating Memories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">
+        <span class="loader-v">V</span>
+        <div class="loader-line"></div>
+      </div>
+      <p class="loader-text">Vasudev Photography</p>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-v">V</span>
+        <span class="logo-text">Vasudev <em>Photography</em></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-slider">
+      <div class="slide active" style="background-image: url('../images/670427023_17917476618344887_8712041158824521229_n.webp')"></div>
+      <div class="slide" style="background-image: url('../images/612572121_17904032829344887_4272820447740766711_n.webp')"></div>
+      <div class="slide" style="background-image: url('../images/670747985_17918847114344887_3412505693484487891_n.webp')"></div>
+      <div class="slide" style="background-image: url('../images/682694496_17920743339344887_4085904673476411262_n.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">— Est. Bethamcherla, Andhra Pradesh —</p>
+      <h1 class="hero-title reveal-up">
+        <span>Capturing Moments,</span>
+        <em>Creating Memories</em>
+      </h1>
+      <div class="hero-divider reveal-up">
+        <span></span><span class="dot">◆</span><span></span>
+      </div>
+      <p class="hero-sub reveal-up">Weddings &nbsp;|&nbsp; Cinematic Shoots &nbsp;|&nbsp; Drone &nbsp;|&nbsp; Events</p>
+      <div class="hero-btns reveal-up">
+        <a href="#portfolio" class="btn btn-gold">View Portfolio</a>
+        <a href="#contact" class="btn btn-outline">Contact Now</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="slider-dots" id="sliderDots"></div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about section">
+    <div class="about-grain"></div>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap reveal-left">
+          <div class="about-img-frame">
+            <img src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?w=600&q=80" alt="Vasudev Photography Team" loading="lazy" />
+          </div>
+          <div class="about-img-accent">
+            <span>10+</span>
+            <p>Years of Excellence</p>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <p class="section-eyebrow">Our Story</p>
+          <h2 class="section-title">The Art of <em>Visual Storytelling</em></h2>
+          <div class="gold-bar"></div>
+          <p class="about-desc">
+            Vasudev Photography is a professional photography and videography service based in Bethamcherla, Andhra Pradesh. We specialize in weddings, cinematic shoots, and capturing unforgettable moments that tell your unique story.
+          </p>
+          <p class="about-desc">
+            Every frame we craft is a testament to our passion for timeless imagery — from the golden hour of your wedding day to the sweeping aerial vistas of drone cinematography.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">500+</span>
+              <span class="stat-label">Weddings</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">1200+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">15+</span>
+              <span class="stat-label">Awards</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-gold">Work With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">What We Offer</p>
+        <h2 class="section-title">Our <em>Services</em></h2>
+        <div class="gold-bar center"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal-up" data-delay="0">
+          <div class="service-icon">💍</div>
+          <h3>Wedding Photography & Videography</h3>
+          <p>Timeless coverage of your most precious day — from rituals to reception, every emotion preserved beautifully.</p>
+        </div>
+        <div class="service-card reveal-up" data-delay="100">
+          <div class="service-icon">🎬</div>
+          <h3>Cinematic Shoots</h3>
+          <p>Hollywood-style cinematic videos with colour grading, film scores, and narrative-driven storytelling.</p>
+        </div>
+        <div class="service-card reveal-up" data-delay="200">
+          <div class="service-icon">🌹</div>
+          <h3>Pre-Wedding & Events</h3>
+          <p>Intimate pre-wedding sessions and vibrant event coverage that captures the energy and essence of every moment.</p>
+        </div>
+        <div class="service-card reveal-up" data-delay="300">
+          <div class="service-icon">🚁</div>
+          <h3>Drone Photography</h3>
+          <p>Breathtaking aerial perspectives that frame your celebration against the sweeping landscape of Andhra Pradesh.</p>
+        </div>
+        <div class="service-card reveal-up" data-delay="400">
+          <div class="service-icon">🎥</div>
+          <h3>Short Films & Cover Songs</h3>
+          <p>Artistic short films and music video productions crafted with a director's eye and a storyteller's heart.</p>
+        </div>
+        <div class="service-card reveal-up" data-delay="500">
+          <div class="service-icon">📍</div>
+          <h3>Any Shoot, Any Place</h3>
+          <p>We travel wherever your story takes us — hills, beaches, temples, or abroad. No location is too far or too bold.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">Our Work</p>
+        <h2 class="section-title">The <em>Portfolio</em></h2>
+        <div class="gold-bar center"></div>
+      </div>
+      <div class="portfolio-filters reveal-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="cinematic">Cinematic</button>
+        <button class="filter-btn" data-filter="drone">Drone</button>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid">
+        <div class="portfolio-item" data-cat="wedding">
+          <img src="https://images.unsplash.com/photo-1591604021695-0c69b7c05981?w=600&q=80" alt="Wedding" loading="lazy" />
+          <div class="portfolio-overlay"><span>Wedding Ceremony</span></div>
+        </div>
+        <div class="portfolio-item" data-cat="cinematic">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80" alt="Cinematic" loading="lazy" />
+          <div class="portfolio-overlay"><span>Cinematic Portrait</span></div>
+        </div>
+        <div class="portfolio-item" data-cat="drone">
+          <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&q=80" alt="Drone" loading="lazy" />
+          <div class="portfolio-overlay"><span>Aerial View</span></div>
+        </div>
+        <div class="portfolio-item" data-cat="wedding">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80" alt="Wedding" loading="lazy" />
+          <div class="portfolio-overlay"><span>Bridal Portrait</span></div>
+        </div>
+        <div class="portfolio-item" data-cat="events">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80" alt="Events" loading="lazy" />
+          <div class="portfolio-overlay"><span>Grand Event</span></div>
+        </div>
+        <div class="portfolio-item" data-cat="cinematic">
+          <img src="https://images.unsplash.com/photo-1524863479829-916d8e77f114?w=600&q=80" alt="Cinematic" loading="lazy" />
+          <div class="portfolio-overlay"><span>Cinematic Film</span></div>
+        </div>
+        <div class="portfolio-item" data-cat="wedding">
+          <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80" alt="Wedding" loading="lazy" />
+          <div class="portfolio-overlay"><span>Pre-Wedding</span></div>
+        </div>
+        <div class="portfolio-item" data-cat="drone">
+          <img src="https://images.unsplash.com/photo-1508444845599-5c89863b1c44?w=600&q=80" alt="Drone" loading="lazy" />
+          <div class="portfolio-overlay"><span>Drone Landscape</span></div>
+        </div>
+        <div class="portfolio-item" data-cat="events">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80" alt="Events" loading="lazy" />
+          <div class="portfolio-overlay"><span>Corporate Event</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose">✕</button>
+    <button class="lb-prev" id="lbPrev">&#8249;</button>
+    <button class="lb-next" id="lbNext">&#8250;</button>
+    <img src="" alt="Lightbox" id="lbImg" />
+    <p id="lbCaption"></p>
+  </div>
+
+  <!-- INSTAGRAM SECTION -->
+  <section class="instagram section">
+    <div class="insta-bg"></div>
+    <div class="container insta-inner reveal-up">
+      <div class="insta-icon">📸</div>
+      <p class="section-eyebrow">Follow Our Journey</p>
+      <h2 class="section-title">See Us on <em>Instagram</em></h2>
+      <p class="insta-handle">@vasudevaphotography</p>
+      <a href="https://www.instagram.com/vasudevaphotography/" target="_blank" rel="noopener" class="btn btn-gold">
+        <span>View More on Instagram</span> →
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Let's <em>Connect</em></h2>
+        <div class="gold-bar center"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="contact-item">
+            <div class="ci-icon">📍</div>
+            <div>
+              <h4>Studio Address</h4>
+              <p>1st Floor, Sri Sai Complex, Bethamcherla,<br>Andhra Pradesh, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:7337524252">+91 73375 24252</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:vasudevaphotography@gmail.com">vasudevaphotography@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">🕐</div>
+            <div>
+              <h4>Studio Hours</h4>
+              <p>Mon – Sat: 9:00 AM – 7:00 PM<br>Sunday: By Appointment</p>
+            </div>
+          </div>
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.0!2d78.1450!3d15.4550!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBethamcherla!5e0!3m2!1sen!2sin!4v1"
+              width="100%" height="200" style="border:0; border-radius:8px; filter:grayscale(80%) invert(90%) contrast(90%);"
+              allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+            <input type="hidden" name="access_key" value="7c7f0013-145c-42a0-bfb1-00b4edee5dfe">
+            <input type="hidden" name="subject" value="New Contact Form Submission from Vasudev Photography">
+            <input type="hidden" name="from_name" value="Vasudev Photography Website">
+            <div class="form-group">
+              <label for="fname">Your Name</label>
+              <input type="text" id="fname" name="name" placeholder="e.g. Ravi Kumar" autocomplete="name" required />
+              <span class="form-error" id="nameErr"></span>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address</label>
+              <input type="email" id="femail" name="email" placeholder="your@email.com" autocomplete="email" required />
+              <span class="form-error" id="emailErr"></span>
+            </div>
+            <div class="form-group">
+              <label for="fphone">Phone Number</label>
+              <input type="tel" id="fphone" name="phone" placeholder="+91 98765 43210" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="fservice">Service Interested In</label>
+              <select id="fservice" name="service">
+                <option value="">Select a service...</option>
+                <option>Wedding Photography & Videography</option>
+                <option>Cinematic Shoots</option>
+                <option>Pre-Wedding & Events</option>
+                <option>Drone Photography</option>
+                <option>Short Films & Cover Songs</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="fmsg">Your Message</label>
+              <textarea id="fmsg" name="message" rows="5" placeholder="Tell us about your event, date, location..." required></textarea>
+              <span class="form-error" id="msgErr"></span>
+            </div>
+            <button type="submit" class="btn btn-gold full-width" id="submitBtn">
+              <span>Send Message</span>
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✓ Message sent! We'll get back to you within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <span class="logo-v">V</span>
+        <span class="logo-text">Vasudev <em>Photography</em></span>
+      </div>
+      <p class="footer-tagline">"Every moment deserves to be eternal."</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/vasudevaphotography/" target="_blank" aria-label="Instagram" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+        </a>
+        <a href="tel:7337524252" aria-label="Phone" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012.18 2H5.2a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.18 9.91a16 16 0 006.29 6.29l1.28-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        </a>
+        <a href="mailto:vasudevaphotography@gmail.com" aria-label="Email" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Vasudev Photography. All rights reserved. &nbsp;|&nbsp; Bethamcherla, Andhra Pradesh</p>
+    </div>
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
